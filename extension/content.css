@@ -1,0 +1,6 @@
+#url-preview-ext-tooltip {
+  all: initial;
+  position: fixed;
+  z-index: 2147483647;
+  pointer-events: auto;
+}

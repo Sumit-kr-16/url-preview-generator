@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=400" />
+  <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+  <div class="popup">
+    <header class="header">
+      <h1>URL Preview</h1>
+      <p class="subtitle">Paste any URL to generate a preview</p>
+    </header>
+
+    <form id="url-form" class="form">
+      <input
+        type="text"
+        id="url-input"
+        placeholder="https://example.com"
+        autocomplete="off"
+        autofocus
+      />
+      <button type="submit" id="submit-btn">Preview</button>
+    </form>
+
+    <div id="result"></div>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
